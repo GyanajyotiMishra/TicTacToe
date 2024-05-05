@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(0, 1, 0);
+}
+nav{
+    background-color:  #FFFDD0;
+    height: 3vw;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-family: "Merriweather", serif;
+}
+
+
+nav ul{
+    list-style-type: none;
+    color:black;
+    font-size: 1.50vw;
+}
+
+.gamecontainer{
+    background-color: rgb(240, 114, 64);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container{
+display: grid;
+grid-template-rows: repeat(3,7vw);
+grid-template-columns: repeat(3,7vw);
+}
+
+.box{
+    border: 2px solid rgb(241, 233, 233);
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(202, 236, 53)
+}
+
+.gameinfo{
+    padding-left: 10vw;
+}
+.tenor-gif-embed{
+    display:none;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+ .br-0{
+    border-right: 0;
+ }
+
+ .bb-0{
+    border-bottom: 0;
+ }
+
+ #reset{
+    font-size: 2vw;
+    border: solid white 2px;
+    border-radius: 8px;
+    width: 7vw;
+    color: aliceblue;
+    margin-left: 10vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info{
+font-size: 1.8vw;
+}
+
+#text{
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+#reset:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(240, 114, 64);
+}
+
+li:hover{
+color:  rgb(240, 114, 64);
+}
